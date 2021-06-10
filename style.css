@@ -1,0 +1,23 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+.gallery___photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  outline-offset: 20px;
+  transition: all 0.2s;
+}
+
+.gallery {
+  width:1280px;
+  margin: 0 auto;
+
+}
+
+
+.gallery___photo:hover {
+  outline: 3px solid #E18048;
+}
